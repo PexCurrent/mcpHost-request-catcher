@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mcp-proxy
+server:
+  port: 12001
+
+mcp:
+  proxy:
+    target-url: https://api.deepseek.com/chat/completions
+    api-key:
